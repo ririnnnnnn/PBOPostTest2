@@ -27,7 +27,7 @@ Selamat datang di Wonderland! Program ini adalah sebuah program manajemen sistem
 
 # Alur Program
 
-1. Menu Read
+1. Menu Menambah
    <p>Menambah tiket baru dengan memasukkan informasi ID, nama, dan harga.</p>
 2. Menu Create
    <p>Menu untuk membuat peminjaman ruang baru dengan memasukkan informasi seperti kode ruang, tanggal peminjaman, keperluan, dan status. Setelah itu, peminjaman baru ditambahkan ke daftar peminjaman.<p>
@@ -80,38 +80,41 @@ Selamat datang di Wonderland! Program ini adalah sebuah program manajemen sistem
 
 # Penjelasan Output
 1. Menu Utama <br>
-   <br>
-   <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/afc9e7d6-2ba1-4e61-b59d-54fbf2f94301">
-  
-2. Menu Read <br>
-   - Jika didalam ArrayList tidak terdapat data, maka outputnya adalah sebagai berikut. <br>
-     <br>
-     <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/ad73448c-9371-450e-acf3-6f5991a5c094">
-   - Jika didalam ArrayList terdapat data, maka outputnya adalah sebagai berikut. <br>
-     <br>
-     <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/9759d0a2-d4e3-4194-8f20-eb238357c342">
+   Saat program dijalankan akan menampilkan menu utama yang terdiri dari 3 pilihan yaitu:
+   ![image](https://github.com/user-attachments/assets/2c48facf-5f16-4a46-b313-5b15fbb671b5)
 
-3. Menu Create <br>
-    <br>
-    <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/94922e33-193c-4275-b22e-efc0ae1333a0">
-   
-4. Menu Update <br>
-    - Jika kode kelas ditemukan maka Update akan sukses. <br>
-      <br>  
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/d43fc4e1-b320-4a4e-bf8f-ccf23f3eb7a9">
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/cd1bdcac-6026-46fe-ab6b-dc66e4f59095">
-    - Jika kode kelas tidak ditemukan maka outputnya adalah sebagai berikut. <br>
-      <br>
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/39a44f78-7b8f-47fc-9e70-07b9ccf7da8f">
+2. Menu Admin
+   Setelah pengguna memilih mode Admin dari menu utama dengan memasukkan angka 1, maka program akan menampilkan Menu Admin yang dapat digunakan oleh administrator untuk mengelola sistem penjualan         tiket. Menu ini berisi beberapa pilihan yang dapat digunakan oleh administrator untuk melakukan tugas-tugas, berikut tampilan dan penjelasan dari masing-masing pilihan di menu admin:
+   ![image](https://github.com/user-attachments/assets/5afe70f3-3b4a-4af4-b4f7-8a2a434f7e4c)
 
-5. Menu Delete <br>
-    - Jika kode kelas ditemukan maka kode kelas akan berhasil dihapus. <br>
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/c785dc0a-97e2-47ce-a368-c18284bb7d10">
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/b172f547-379a-4cfc-91bb-b3ecd70acf72">
-    - Jika kode kelas ditemukan, maka outputnya adalah sebagai berikut. <br>
-      <br>
-      <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/46e18de1-a72f-4073-bba3-47478d677509">
+3. Menu Menambah <br>
+   Pilihan ini digunakan oleh admin untuk menambahkan tiket baru ke sistem. Setelah memilih opsi ini, admin akan diminta untuk memasukkan detail tiket, seperti id ticket, nama ticket, dan harga tiket
+   ![image](https://github.com/user-attachments/assets/ebc9679f-cea4-466d-bf04-c85b56f192dc)
 
-6. Keluar (End) <br>
-    <p>Berikut adalah tampilan jika user telah memilih keluar dari program.</p><br>
-    <img width="500" alt="image" src="https://github.com/noviantisafitri/pbo-post-test-2/assets/121856489/9bb607c4-25bc-4a62-9355-e78f7eea8fb8">
+4. Menu Tampilkan
+   Admin dapat memilih opsi ini untuk melihat daftar semua tiket yang sudah ditambahkan ke dalam program. Program akan menampilkan informasi setiap tiket, termasuk nama tiket, harga tiket, dan id         tiket.
+   ![image](https://github.com/user-attachments/assets/6c28dc88-8926-4b85-ad3b-bd1d971ab44a)
+
+5. Menu Memperbarui <br>
+   Opsi ini memungkinkan admin untuk memperbarui informasi dari tiket yang sudah ada. Admin akan diminta untuk memilih tiket yang ingin diperbarui berdasarkan id tiket, dan kemudian dapat memperbarui     detail seperti harga atau nama tiket.
+   ![image](https://github.com/user-attachments/assets/6fae8202-6f19-4ce4-beb2-c5a0637c62c3)
+
+6. Menu Menghapus
+   ![image](https://github.com/user-attachments/assets/d6920d7d-fb1e-477a-ad3b-5ba1b47ed68b)
+   Admin dapat menghapus tiket dari daftar, dengan memilih opsi ke 4 ini. Program akan meminta admin memasukkan id tiket yang ingin dihapus, dan tiket tersebut akan dihapus dari program.
+
+7. Menu Pembeli
+   Jika pengguna memilih mode Pembeli dari menu utama dengan memasukkan angka 2, program akan menampilkan Menu Pembeli dengan dua opsi yang dapat dilakukan oleh pembeli, yaitu membeli tiket dan       
+   kembali ke menu utama. Berikut adalah tampilan dan penjelasan dari setiap pilihan yang ada di dalam Menu Pembeli:
+   ![image](https://github.com/user-attachments/assets/49de36a5-3a55-472c-9611-c13709a0f55e)
+
+8. Menu Membeli
+   Menu ini digunakan oleh pembeli untuk melakukan transaksi pembelian tiket. Setelah memilih opsi ini, program akan memandu mereka melalui beberapa langkah untuk menyelesaikan pembelian.
+   ![image](https://github.com/user-attachments/assets/673169fa-d41e-4516-8c21-12f01567ba77)
+
+9. Menu Keluar
+   Ketika pengguna memilih opsi 3 dari Menu Utama, program akan menampilkan pesan perpisahan dan menghentikan eksekusi. Berikut adalah tampilan yang muncul saat pengguna memilih untuk keluar:
+   ![image](https://github.com/user-attachments/assets/9e8a1766-4a93-46a2-8853-ac1c96bc7c4a)
+
+
+
